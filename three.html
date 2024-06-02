@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <a href="fist.html">Go to frist</a>
+    <a href="two.html">Go to two</a>
+    <form action="" align = "center">
+    <h1>Register</h1>
+    <div>
+    <label for="username">Username</label>
+    <input type="text" name="username" placeholder="ระบุ" required>
+    </div>
+    <div>
+    <label for="password">Password</label>
+    <input type="password" name="password" >
+    </div>
+    <div>
+    <label for="email">Email</label>
+    <input type="email" name="email" required >
+    </div>
+    <label for="details">Details</label>
+    <textarea name="detail" id=""></textarea>
+    <div>
+    <div>
+    <label for="old">อายุ</label>
+    <input type="number" min="0" max="90">  
+    </div>
+    <label for="brth">วันเกิด</label>
+    <input type="date" name="brth" id=""required>
+    </div>
+    <div>
+    <label for="color">สีที่ชอบ</label>
+    <input type="color" name="color" id="">
+    </div>
+    <div>
+    <label for="range">ช่วงตัวเลข</label>
+    <input type="range" min="0" max="50">
+    </div>
+    <div>
+    <label for="edc">ระดับการศึกษา</label>
+    <select name="edc" id="">
+    <option value="dree1">ป.ตรี</option>
+    <option value="dree2">ป.โท</option>
+    </select>
+    </div>
+    <div>
+    <label for="gender">เพศ</label>
+    <input type="radio" name="gender">ชาย
+    <input type="radio" name="gender">หญิง
+    <input type="radio" name="gender">กำหนดเอง
+    </div>
+    <div>
+    <label for="like">สิ่งที่ชอบ</label>
+    <input type="checkbox" name="fav">เกม   
+    <input type="checkbox" name="fav">ดูหนัง
+    <input type="checkbox" name="fav">อ่านหนังสือ
+    <input type="checkbox" name="fav">เขียนโปรแกรม
+    <input type="checkbox" name="fav">นอน
+    </div>
+    <div>
+    <label for="file">เลือกไฟล์ของคุณ
+    </label>
+    <input type="file" name="file">
+    </div>
+    <div>
+    <input type="submit" value="บันทึกข้อมูล">
+    </div>
+    </form>
+</body>
+</html>
